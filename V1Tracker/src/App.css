@@ -36,3 +36,8 @@
 tr {
   border-bottom: 1px solid black;
 }
+
+.form-group {
+  display:flex;
+  justify-content: center;
+}

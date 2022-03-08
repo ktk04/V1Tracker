@@ -6,3 +6,8 @@ tr {
 {
     background-color: black !important;
 }
+
+.form-group1 {
+    display:flex;
+    justify-content: center;
+  }
