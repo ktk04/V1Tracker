@@ -10,7 +10,7 @@ const Exercise = props => (
     <td>{props.exercise.duration}</td>
     <td>{props.exercise.date.substring(0,10)}</td>
     <td>
-      <Link to={"/edit/"+props.exercise._id}>Edit</Link> | <a href="#" onClick={() => { props.deleteExercise(props.exercise._id) }}>Delete</a>
+      <Link to={"/edit/"+props.exercise._id}>Edit</Link> or <a href="#" onClick={() => { props.deleteExercise(props.exercise._id) }}>Delete</a>
     </td>
   </tr>
 )
@@ -56,7 +56,7 @@ export default class ExercisesList extends Component {
         <table className="table">
           <thead className="thead-light">
             <tr>
-              <th>Username</th>
+              <th>Name</th>
               <th>Description</th>
               <th>Duration</th>
               <th>Date</th>

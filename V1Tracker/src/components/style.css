@@ -2,6 +2,15 @@ tr {
     border-bottom: 1px solid black;
   }
 
+th{
+    text-align: center;
+}
+td
+{
+    border-left:1px solid black;
+    border-right:1px solid black;
+    text-align:center;
+}
 .navbar-dark 
 {
     background-color: black !important;
@@ -11,3 +20,8 @@ tr {
     display:flex;
     justify-content: center;
   }
+
+.btn-primary
+{
+    background-color:black !important;
+}

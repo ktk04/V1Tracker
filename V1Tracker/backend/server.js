@@ -15,7 +15,7 @@ mongoose.connect(uri, { useNewUrlParser: true, useUnifiedTopology: true,useCreat
 );
 const connection = mongoose.connection;
 connection.once('open', () => {
-  console.log("MongoDB database connection established successfully");
+  console.log("Connection Successful to MongoDB Database");
 })
 
 const exercisesRouter = require('./routes/exercises');
